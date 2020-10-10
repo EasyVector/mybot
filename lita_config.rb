@@ -51,5 +51,6 @@ end
   
 # slack adapter demands a value even in dev when we aren't using it...
   
-config.adapters.slack.token = ENV.fetch('SLACK_TOKEN', '')
+config.robot.adapter = :slack
+config.adapters.slack.token = "xoxb-1413418021590-1432779538657-egJjvqX70LEP6XqbCD8vIXr0"
 end
