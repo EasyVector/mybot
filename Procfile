@@ -1,1 +1,1 @@
-worker bundle exec lita -p ${PORT:-5000}
+web bundle exec lita -p $PORT
