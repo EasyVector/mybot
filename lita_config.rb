@@ -52,7 +52,8 @@ Lita.configure do |config|
         
         config.adapters.slack.token = ENV.fetch('SLACK_TOKEN', '')
         
-        
+        config.adapters.slack.token = "xoxb-1413418021590-1432779538657-egJjvqX70LEP6XqbCD8vIXr0"
+
     # config.handlers.some_handler.some_config_key = "value"
   end
   
